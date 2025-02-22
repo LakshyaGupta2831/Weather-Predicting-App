@@ -1,12 +1,10 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
 body {
     background: url('w.jpg') no-repeat center center/cover;
     height: 100vh;
@@ -21,8 +19,8 @@ body {
 .card {
     width: 90%;
     max-width: 470px;
-    background: rgba(255, 255, 255, 0.15); /* Semi-transparent */
-    backdrop-filter: blur(10px); /* Blurred background */
+    background: rgba(255, 255, 255, 0.15); 
+    backdrop-filter: blur(10px); 
     opacity: 0.9;
     color: #fff;
     border-radius: 20px;
@@ -31,7 +29,6 @@ body {
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease-in-out;
 }
-
 .card:hover {
     backdrop-filter: blur(15px);
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
@@ -111,6 +108,7 @@ body {
     margin-top: -6px;
 }
 
+/* responsiveness */
 @media (max-width: 768px) {
     .card {
         padding: 30px 20px;
